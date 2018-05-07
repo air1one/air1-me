@@ -3,12 +3,16 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
-tags: [About, Test]
+tags: [About]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hi, I'm "Air1" !
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+I'm a 28 years old french developer, who entered the crypto world in 2017. I started to learn and I understood how big a revolution
+it was.
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+After some months I decided I needed to get more involved and find a good project to learn and contribute. I chose Ark for
+its potential, technology and being so open to external contributors.
+
+Now after having some experience I am more motivated to keep going on with Ark. I am sharing here the things I learn
+along my Ark journey 😀

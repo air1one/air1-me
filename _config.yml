@@ -1,21 +1,21 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "http://air1one.github.io"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+title: Air1 Ark blog # site's title
+description: "Ark contributor writing about the Ark blockchain and crypto technology" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
+  title: Air1.me # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
+     <p>Ark contributor. Writing about the Ark blockchain and crypto technology.</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -29,7 +29,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "air1one"
   google_plus:
   instagram:
   keybase:
@@ -46,8 +46,8 @@ theme_settings:
   youtube:
 
   # Scripts / Features 
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: UA-118824271-1 # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: air1-me
   katex: true # Enable if using math markup
   
   special_page:
