@@ -77,4 +77,4 @@ Also check on my Twitter list : [Ark Community](https://twitter.com/Air1Ark/list
 
 ## Someone's missing ?
 
-Please tell me in the comments ! Would be glad to add more people. Also tell me if you're on the list and want me to add a small description.
+Please tell me (send me a message on Twitter) ! Would be glad to add more people. Also tell me if you're on the list and want me to add a small description.
