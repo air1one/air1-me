@@ -63,6 +63,8 @@ Also check on my Twitter list : [Ark Delegates](https://twitter.com/Air1Ark/list
 
 [@**roks0n**](https://twitter.com/roks0n) ([@**deadlock_ark**](https://twitter.com/deadlock_ark))
 
+[@**biz_classic**](https://twitter.com/biz_classic)
+
 ## Community
 
 Also check on my Twitter list : [Ark Community](https://twitter.com/Air1Ark/lists/ark-community/members).
