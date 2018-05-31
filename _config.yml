@@ -4,7 +4,6 @@ url: "http://air1one.github.io"
 title: Air1 Ark blog # site's title
 description: "Ark contributor writing about the Ark blockchain and crypto technology" # used by search engines
 
-
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
@@ -40,7 +39,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: # "twitter username"
+  twitter: "Air1Ark"
   vimeo:
   wordpress:
   youtube:
@@ -97,4 +96,4 @@ sass:
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
+exclude: ["vendor", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
