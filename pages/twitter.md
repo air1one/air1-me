@@ -37,6 +37,8 @@ Also check on my Twitter list : [Ark Crew](https://twitter.com/Air1Ark/lists/ark
 
 [@**sleepdefic1t**](https://twitter.com/sleepdefic1t) IoT Team / Developer
 
+[@**olejegcord**](https://twitter.com/olejegcord) UX / UI Designer
+
 ## Delegates
 
 Also check on my Twitter list : [Ark Delegates](https://twitter.com/Air1Ark/lists/ark-delegates/members).
@@ -65,17 +67,38 @@ Also check on my Twitter list : [Ark Delegates](https://twitter.com/Air1Ark/list
 
 [@**biz_classic**](https://twitter.com/biz_classic)
 
+[@**ark_thefoundry**](https://twitter.com/ark_thefoundry)
+
+[@**YinNetwork**](https://twitter.com/YinNetwork)
+
 ## Community
 
 Also check on my Twitter list : [Ark Community](https://twitter.com/Air1Ark/lists/ark-community/members).
 
+[@**ArkCommFund**](https://twitter.com/ArkCommFund) Ark Community Fund
+
 [@**ArkStickers**](https://twitter.com/ArkStickers) sending Ark stickers around the globe
+
+[@**_faustbrian**](https://twitter.com/_faustbrian)
 
 [@**0Arkenstone**](https://twitter.com/0Arkenstone)
 
 [@**Tharudebg**](https://twitter.com/Tharudebg)
 
+[@**ghostfaceuk**](https://twitter.com/ghostfaceuk)
+
 [@**Air1Ark**](https://twitter.com/Air1Ark) This is me 😋
+
+## Ark-based chains
+
+Also check on my Twitter list : [Ark-based chains](https://twitter.com/Air1Ark/lists/ark-based-chains/members).
+
+[@**PersonaIam**](https://twitter.com/PersonaIam)
+
+[@**BLOCKPOOLIO**](https://twitter.com/BLOCKPOOLIO)
+
+[@**kapucoin**](https://twitter.com/kapucoin)
+
 
 ## Someone's missing ?
 
