@@ -1,7 +1,7 @@
 ---
 layout: post
 title: May developments by the Ark community
-tags: [Ark, Development, Monthly]
+tags: [Ark, Development, Community]
 excerpt_separator: <!--more-->
 ---
 <!-- 
@@ -17,8 +17,7 @@ May has been a pretty productive month for the Ark community 😎 Let's review w
 ## Ark explorer
 
 91 PRs merged in the ark-explorer repository, that's a lot ! We selected some to share here.
-
-To see the full list, [click here for the Github filter](https://github.com/ArkEcosystem/ark-explorer/pulls?page=1&q=is%3Apr+merged%3A2018-05-01..2018-05-31&utf8=%E2%9C%93).
+*To see the full list, [check this Github filter](https://github.com/ArkEcosystem/ark-explorer/pulls?page=1&q=is%3Apr+merged%3A2018-05-01..2018-05-31&utf8=%E2%9C%93).*
 
 #### Fix wrong transactions being shown in a wallet
 
@@ -89,8 +88,7 @@ In Delegate Monitor page, there was a huge amount of server requests to get info
 
 ## Ark mobile
 8 PRs merged in the ark-mobile repository.
-
-To see the full list, [click here for the Github filter](https://github.com/ArkEcosystem/ark-mobile/pulls?page=1&q=is%3Apr+merged%3A2018-05-01..2018-05-31&utf8=%E2%9C%93).
+*To see the full list, [check this Github filter](https://github.com/ArkEcosystem/ark-mobile/pulls?page=1&q=is%3Apr+merged%3A2018-05-01..2018-05-31&utf8=%E2%9C%93).*
 
 #### Enforces uniqueness of profile names
 
@@ -126,8 +124,7 @@ And also get word suggestions in this language :
 
 ## Ark net
 25 PRs merged in the ark-net repository.
-
-To see the full list, [click here for the Github filter](https://github.com/ArkEcosystem/ark-net/pulls?page=1&q=is%3Apr+merged%3A2018-05-01..2018-05-31&utf8=%E2%9C%93).
+*To see the full list, [check this Github filter](https://github.com/ArkEcosystem/ark-net/pulls?page=1&q=is%3Apr+merged%3A2018-05-01..2018-05-31&utf8=%E2%9C%93).*
 
 #### Logging framework and full log coverage
 
@@ -143,3 +140,37 @@ Big work on logging : now we can have a full trace of what's going on.
 [#7 by sharkdev-j](https://github.com/ArkEcosystem/ark-net/pull/7)
 
 Title speaks for itself 😉
+
+## Ark client
+
+5 PRs merged in the ark-client repository.
+*To see the full list, [check this Github filter](https://github.com/ArkEcosystem/ark-client/pulls?page=1&q=is%3Apr+merged%3A2018-05-01..2018-05-31&utf8=%E2%9C%93).*
+
+#### Fix for USB init error on machines without USB port
+
+[#41 by wownmedia](https://github.com/ArkEcosystem/ark-client/pull/41)
+
+Ark-client tried to initialize a USB port to check if a Ledger is connected, when no USB port can be initialized the app crashed.
+
+Added error handling for the loading of the modules that manage the Ledger. This prevents a crash when no USB port exists on the system. The user is warned when no support for the Ledger is available and all methods that might use the Ledger have an additional check if Ledger support is enabled or not.
+
+#### Fix crash if trying to send a transaction from a new account
+
+[#37 by wownmedia](https://github.com/ArkEcosystem/ark-client/pull/37)
+
+When a new account is created it is not known by all the nodes. When trying to send to/from this account using the postTransaction() method the app was crashing.
+
+## Good job, Ark community 💪
+
+With that much work from the community, we can't show everything here. But we can mention the other  repositories with merged PRs this month : 
+[ark-node](https://github.com/ArkEcosystem/ark-node),
+[ARK-PHP](https://github.com/ArkEcosystem/ARK-PHP),
+[ARKcommander](https://github.com/ArkEcosystem/ARKcommander),
+[ark-desktop](https://github.com/ArkEcosystem/ark-desktop),
+[arky](https://github.com/ArkEcosystem/arky),
+[ark-go](https://github.com/ArkEcosystem/ark-go),
+[ark-deployer](https://github.com/ArkEcosystem/ark-deployer),
+[ARK-JSON-RPC](https://github.com/ArkEcosystem/ARK-JSON-RPC),
+[ark-js](https://github.com/ArkEcosystem/ark-js).
+
+Congratulations, Ark community ! Great, great work this month. Let's keep this going and we'll see next month the awesome stuff we built !
