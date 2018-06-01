@@ -9,11 +9,24 @@ General idea : review the cool PRs merged in the month.
 Explain clearly (avoid too technical stuff), show with screenshots.
 -->
 
-May has been a pretty productive month for the Ark community. Let's review what has been developed !
+May has been a pretty productive month for the Ark community 😎 Let's review what has been developed !
 <!--more-->
+
+*PR stands for Pull Request, it corresponds to the changes submitted by the community to the official Ark repositories. When a PR is accepted, it is merged into the Ark repository.*
+
 ## Ark explorer
 
-xxx PRs merged in the ark-explorer repository, that's a lot ! We selected some to share here.
+91 PRs merged in the ark-explorer repository, that's a lot ! We selected some to share here.
+
+To see the full list, [click here for the Github filter](https://github.com/ArkEcosystem/ark-explorer/pulls?page=1&q=is%3Apr+merged%3A2018-05-01..2018-05-31&utf8=%E2%9C%93).
+
+#### Fix wrong transactions being shown in a wallet
+
+[#180 by ItsANameToo](https://github.com/ArkEcosystem/ark-explorer/pull/180)
+
+Sometimes when navigating to a wallet, it would briefly show the correct transactions of the wallet but then replace them with the latest transactions (transactions from everyone as on the home page).
+
+This PR added a check so that it will no longer show those wrong transactions.
 
 #### Enhance responsiveness of the footer
 
@@ -28,6 +41,18 @@ Before :
 After :
 
 ![Footer responsiveness after](/assets/img/posts/may-dev/footer-after.png)
+
+#### Fix color for special transactions / Fix color for missed blocks
+
+[#146 by ItsANameToo](https://github.com/ArkEcosystem/ark-explorer/pull/146)
+
+Originally, special transactions such as votes, signatures and delegate registrations were given a green color, as the recipient corresponded to the current wallet. However, they are actually outgoing transactions (and are also shown on the 'sent' page) and should therefore be indicated in red.
+
+[#218 by ItsANameToo](https://github.com/ArkEcosystem/ark-explorer/pull/218)
+
+In Delegate Monitor, status 1 and 4 both indicate a block being missed, either in current round (1) or previous round (4). However, status 4 was not being colored yellow, but grey instead (such as the regular "awaiting spot" is colored). This PR changed the color to be yellow too :
+
+![Block missed color](/assets/img/posts/may-dev/block-missed.png)
 
 #### Remove link for vote, registration and signature creation transactions
 
@@ -45,8 +70,27 @@ After :
 
 Also, [#226 by dated](https://github.com/ArkEcosystem/ark-explorer/pull/226) adds missing transactions labels like 'Multisignature registration' to be displayed in this 'recipient' column.
 
+#### Added a tooltip when the search returns no results
+
+[#178 by ItsANameToo](https://github.com/ArkEcosystem/ark-explorer/pull/178)
+
+When you searched something but it had no result, you didn't get any feedback. Added a tooltip that shows when nothing was found and dismisses automatically after 1500ms.
+
+![Search tooltip](/assets/img/posts/may-dev/search-tooltip.png)
+
+#### Server requests optimizations
+
+[#210](https://github.com/ArkEcosystem/ark-explorer/pull/210),
+[#212](https://github.com/ArkEcosystem/ark-explorer/pull/212),
+[#214](https://github.com/ArkEcosystem/ark-explorer/pull/214),
+[#215](https://github.com/ArkEcosystem/ark-explorer/pull/215) by air1one
+
+In Delegate Monitor page, there was a huge amount of server requests to get informations from the node. These PRs help reduce the server load and make the Delegate Monitor page faster.
+
 ## Ark mobile
-xxx PRs merged in the ark-mobile repository.
+8 PRs merged in the ark-mobile repository.
+
+To see the full list, [click here for the Github filter](https://github.com/ArkEcosystem/ark-mobile/pulls?page=1&q=is%3Apr+merged%3A2018-05-01..2018-05-31&utf8=%E2%9C%93).
 
 #### Enforces uniqueness of profile names
 
@@ -81,4 +125,21 @@ And also get word suggestions in this language :
 ![Passphrase suggestions in French](/assets/img/posts/may-dev/passphrase-suggest-fr.png)
 
 ## Ark net
-xxx PRs merged in the ark-net repository.
+25 PRs merged in the ark-net repository.
+
+To see the full list, [click here for the Github filter](https://github.com/ArkEcosystem/ark-net/pulls?page=1&q=is%3Apr+merged%3A2018-05-01..2018-05-31&utf8=%E2%9C%93).
+
+#### Logging framework and full log coverage
+
+[#29](https://github.com/ArkEcosystem/ark-net/pull/29),
+[#35](https://github.com/ArkEcosystem/ark-net/pull/35),
+[#46](https://github.com/ArkEcosystem/ark-net/pull/46) by sharkdev-j,
+[#47](https://github.com/ArkEcosystem/ark-net/pull/47) by air1one
+
+Big work on logging : now we can have a full trace of what's going on.
+
+#### Added ability to generate passphrase & accounts
+
+[#7 by sharkdev-j](https://github.com/ArkEcosystem/ark-net/pull/7)
+
+Title speaks for itself 😉
