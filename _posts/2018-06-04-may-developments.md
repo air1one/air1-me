@@ -173,4 +173,6 @@ With that much work from the community, we can't show everything here. But we ca
 [ARK-JSON-RPC](https://github.com/ArkEcosystem/ARK-JSON-RPC),
 [ark-js](https://github.com/ArkEcosystem/ark-js).
 
-Congratulations, Ark community ! Great, great work this month. Let's keep this going and we'll see next month the awesome stuff we built !
+Congratulations, Ark community ! Great, great work this month. Let's keep this going, with [Ark V2 coming to DevNet](https://ark.io/countdown), June will be a busy month !
+
+*Special thanks to @dated and @ItsANameToo for helping me select some of their PRs 👍👍*
