@@ -1,7 +1,7 @@
 ---
 layout: post
-title: What are Ark plugins and why it matters
-tags: [Ark, Development, V2, Plugins]
+title: Ark V2 Plugins are powerful - here's why
+tags: [Ark, V2, Plugins]
 excerpt_separator: <!--more-->
 ---
 
