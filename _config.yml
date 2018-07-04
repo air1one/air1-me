@@ -1,8 +1,8 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "http://air1one.github.io"
-title: Air1 Ark blog # site's title
-description: "Ark contributor writing about the Ark blockchain and crypto technology" # used by search engines
+title: Air1.me # site's title
+description: "Blockchain technology / Ark project / Software Development" # used by search engines
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -14,7 +14,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Ark contributor. Writing about the Ark blockchain and crypto technology.</p>
+     <p>Ark contributor. Writing about blockchain technology and Ark.io project.</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
